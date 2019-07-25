@@ -989,7 +989,7 @@ a.slider-btn:hover::before {
 .product-img img {
    transition: all 1.5s ease 0s;
    max-width: 100%;
-   width: 60%;
+   width: 100%;
 }
 .product-wrapper:hover .product-img img {
     transform: scale(1.2);
@@ -3133,7 +3133,7 @@ button.product-filter-toggle:hover,
 /* shop list */
 .product-list.product-list-width-3 .product-width {
     flex: 0 0 33.333%;
-    max-width: 33.333%%;
+    max-width: 33.333%;
 }
 .product-list-width-3 .product-list-details > h2 {
     font-size: 20px;
@@ -4683,3 +4683,6 @@ blockquote {
    width: 70px;
 }
 
+.img-products img {
+   width: 50%;
+}
